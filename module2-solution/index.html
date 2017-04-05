@@ -14,23 +14,25 @@ h1 {
   margin-bottom: 15px;
   text-align:center
 }
-.row {
+.meat {
   border: 1px solid black;
   background-color: grey;
   width: 90%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
   color:black;
+  position: relative
 }
-#title1 {
+#p1 {
   background-color:pink
+  width:20px
+  
   }  
-#title2 {
+#p2 {
   background-color:red
   }
-#title3 {
+#p3 {
   background-color:yellow
   }  
 
@@ -42,7 +44,7 @@ h1 {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -85,7 +87,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -129,46 +131,35 @@ h1 {
 <body>
 <h1>Our Menu</h1>
 
-<section>
-  <div class="row">
-    <div id="title1"><p>Chicken</p></div>
-    <div class="text"><p>In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. 
+<div class="row">
+   <div class="meat">
+     <p id="p1">Chicken</p>
+     <p>In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. 
     As you make the browser window wider or narrower, each section should become wider or narrower. 
     (Hint: use percentages to define width and use the 'float' property. See Lecture 24). For a visual reference of this view, 
-      see the desktop mockup illustration below.</p></div>
+      see the desktop mockup illustration below.</p>
   </div>
-</section>
-  
-<section>
-  <div class="row">
-    <div id="title2"><p>Chicken</p></div>
-    <div class="text"><p>In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. 
-    As you make the browser window wider or narrower, each section should become wider or narrower. 
-    (Hint: use percentages to define width and use the 'float' property. See Lecture 24). For a visual reference of this view, 
-      see the desktop mockup illustration below.</p></div>
-  </div>
-</section>
-  
-<section>
-  <div class="row">
-    <div id="title3"><p>Chicken</p></div>
-    <div class="text"><p>In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. 
-    As you make the browser window wider or narrower, each section should become wider or narrower. 
-    (Hint: use percentages to define width and use the 'float' property. See Lecture 24). For a visual reference of this view, 
-      see the desktop mockup illustration below.</p></div>
-  </div>
-</section>
+</div>
   
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+   <div class="meat">
+     <p id="p2">Chicken</p>
+     <p>In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. 
+    As you make the browser window wider or narrower, each section should become wider or narrower. 
+    (Hint: use percentages to define width and use the 'float' property. See Lecture 24). For a visual reference of this view, 
+      see the desktop mockup illustration below.</p>
+  </div>
 </div>
-
+  
+<div class="row">
+   <div class="meat">
+     <p id="p3">Chicken</p>
+     <p>In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. 
+    As you make the browser window wider or narrower, each section should become wider or narrower. 
+    (Hint: use percentages to define width and use the 'float' property. See Lecture 24). For a visual reference of this view, 
+      see the desktop mockup illustration below.</p>
+  </div>
+</div>
+  
 </body>
 </html>
